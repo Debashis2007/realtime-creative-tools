@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.env
+
+# Design walkthrough: keep only MP4s in git
+docs/video/*
+!docs/video/
+!docs/video/*.mp4
+
