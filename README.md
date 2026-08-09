@@ -1,5 +1,7 @@
 # Use Case: Realtime Creative Tools
 
+**YouTube walkthrough:** [Realtime Creative Tools — System Design #Shorts](https://youtu.be/-7la9Ws6XjQ)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -48,6 +50,9 @@ Apply **10** cell/scale pressure tests; don’t put multi-minute renders on inte
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Realtime Creative Tools — System Design #Shorts](https://youtu.be/-7la9Ws6XjQ)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
