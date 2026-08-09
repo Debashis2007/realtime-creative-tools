@@ -7,7 +7,7 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [10 — Global Realtime Product Surface](../10-global-realtime-product-surface.md)
+**Parent system design:** [10 — Global Realtime Product Surface](./10-global-realtime-product-surface.md)
 
 ## Users & problem
 
@@ -26,12 +26,12 @@ Writing/image/video assistants generate creatively with live progress. Spiky vir
 
 ```
 Creative UI → conversation/project store
-  → text via LLM stream ([02](../02-streaming-token-delivery.md))
+  → text via LLM stream ([02](./02-streaming-token-delivery.md))
   → media via job queue + object store
   → webhook/UI progress events
 ```
 
-Apply **10** cell/scale pressure tests; don’t put multi-minute renders on interactive GPU chat pools ([01](../01-llm-inference-serving.md)).
+Apply **10** cell/scale pressure tests; don’t put multi-minute renders on interactive GPU chat pools ([01](./01-llm-inference-serving.md)).
 
 ## Specializations
 
@@ -39,7 +39,7 @@ Apply **10** cell/scale pressure tests; don’t put multi-minute renders on inte
 |---------|-----------------|
 | Projects | Assets + versions, not only chat turns |
 | Collaboration | Shared projects ([02 collaborative](../collaborative-playground/README.md)) |
-| Moderation | Output safety on media+text ([06](../06-safety-moderation-pipeline.md)) |
+| Moderation | Output safety on media+text ([06](./06-safety-moderation-pipeline.md)) |
 | CDN | Asset delivery at edge |
 
 ## Failure modes
