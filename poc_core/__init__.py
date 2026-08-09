@@ -1,3 +1,7 @@
+# Copyright (c) 2026 Debashis Bhattacharjee. All Rights Reserved.
+# Unauthorized copying, modification, or distribution is prohibited.
+# https://github.com/Debashis2007
+
 """Self-contained POC helpers — copy this package into each project repo."""
 
 from .mock_llm import MockLLM

@@ -1,3 +1,7 @@
+# Copyright (c) 2026 Debashis Bhattacharjee. All Rights Reserved.
+# Unauthorized copying, modification, or distribution is prohibited.
+# https://github.com/Debashis2007
+
 """Simple in-memory token bucket for RPM/TPM style quotas."""
 
 from __future__ import annotations

@@ -1,3 +1,7 @@
+# Copyright (c) 2026 Debashis Bhattacharjee. All Rights Reserved.
+# Unauthorized copying, modification, or distribution is prohibited.
+# https://github.com/Debashis2007
+
 """Tiny in-memory stores for POC demos."""
 
 from __future__ import annotations
