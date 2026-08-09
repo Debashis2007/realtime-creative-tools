@@ -10,6 +10,7 @@ from .sse import sse_event, format_sse
 from .stores import InMemoryStore, MockVectorIndex
 from .safety import SafetyPlane
 from .health import health_payload
+from .author import AUTHOR_NAME, AUTHOR_FINGERPRINT, AUTHOR_GITHUB, AUTHOR_YOUTUBE
 
 __all__ = [
     "MockLLM",
@@ -20,4 +21,8 @@ __all__ = [
     "MockVectorIndex",
     "SafetyPlane",
     "health_payload",
+    "AUTHOR_NAME",
+    "AUTHOR_FINGERPRINT",
+    "AUTHOR_GITHUB",
+    "AUTHOR_YOUTUBE",
 ]
