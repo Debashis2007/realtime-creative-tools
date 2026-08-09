@@ -1,7 +1,7 @@
 # Design: Realtime Creative Tools
 
 **Project:** `realtime-creative-tools`  
-**Parent system design:** [10 — Global Realtime Product Surface](../10-global-realtime-product-surface.md)
+**Parent system design:** [10 — Global Realtime Product Surface](https://github.com/Debashis2007/realtime-creative-tools/blob/main/10-global-realtime-product-surface.md)
 
 ## 1. What this POC demonstrates
 
