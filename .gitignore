@@ -9,4 +9,5 @@ __pycache__/
 docs/video/*
 !docs/video/
 !docs/video/*.mp4
+!docs/video/*.gif
 
